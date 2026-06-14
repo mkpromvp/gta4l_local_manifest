@@ -4,7 +4,7 @@
 
   <project path="device/samsung/gta4l"
            name="LineageOS/android_device_samsung_gta4l"
-           remote="gh" revision="lineage-22.1" />
+           remote="gh" revision="lineage-20.0" />
 
   <project path="device/samsung/gta4l-common"
            name="LineageOS/android_device_samsung_gta4l-common"
@@ -12,18 +12,18 @@
 
   <project path="kernel/samsung/gta4l"
            name="LineageOS/android_kernel_samsung_sm6115"
-           remote="gh" revision="lineage-22.1" />
+           remote="gh" revision="lineage-20.0" />
 
   <project path="vendor/samsung/gta4l"
            name="TheMuppets/proprietary_vendor_samsung_gta4l"
-           remote="gh" revision="lineage-22.1" />
+           remote="gh" revision="lineage-20.0" />
 
   <project path="vendor/samsung/gta4l-common"
            name="TheMuppets/proprietary_vendor_samsung_gta4l-common"
-           remote="gh" revision="lineage-22.1" />
+           remote="gh" revision="lineage-20.0" />
 
   <project path="hardware/samsung"
            name="LineageOS/android_hardware_samsung"
-           remote="gh" revision="lineage-22.1" />
+           remote="gh" revision="lineage-20.0" />
 
 </manifest>
