@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Device tree - LineageOS مباشرةً -->
+  <!-- Device tree -->
   <project
       path="device/samsung/gta4l"
       name="LineageOS/android_device_samsung_gta4l"
@@ -39,6 +39,13 @@
   <project
       path="hardware/samsung"
       name="LineageOS/android_hardware_samsung"
+      remote="github"
+      revision="lineage-20" />
+
+  <!-- Chromium WebView -->
+  <project
+      path="external/chromium-webview"
+      name="LineageOS/android_external_chromium-webview"
       remote="github"
       revision="lineage-20" />
 
