@@ -42,4 +42,10 @@
       remote="github"
       revision="lineage-20" />
 
+  <!-- Chromium WebView (no lineage-XX branch, uses default/main) -->
+  <project
+      path="external/chromium-webview"
+      name="LineageOS/android_external_chromium-webview"
+      remote="github" />
+
 </manifest>
