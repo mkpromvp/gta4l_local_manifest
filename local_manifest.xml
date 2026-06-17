@@ -42,10 +42,22 @@
       remote="github"
       revision="lineage-20" />
 
-  <!-- Chromium WebView (no lineage-XX branch, uses default/main) -->
+  <!-- Chromium WebView main repo -->
   <project
       path="external/chromium-webview"
       name="LineageOS/android_external_chromium-webview"
+      remote="github" />
+
+  <!-- Chromium WebView prebuilt - primary arch (arm64) -->
+  <project
+      path="external/chromium-webview/prebuilt/arm64"
+      name="LineageOS/android_external_chromium-webview_prebuilt_arm64"
+      remote="github" />
+
+  <!-- Chromium WebView prebuilt - secondary arch (arm, for 32-bit app support) -->
+  <project
+      path="external/chromium-webview/prebuilt/arm"
+      name="LineageOS/android_external_chromium-webview_prebuilt_arm"
       remote="github" />
 
 </manifest>
