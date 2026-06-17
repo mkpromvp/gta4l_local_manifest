@@ -41,3 +41,5 @@
       name="LineageOS/android_hardware_samsung"
       remote="github"
       revision="lineage-20" />
+
+</manifest>
