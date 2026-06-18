@@ -8,12 +8,12 @@
       remote="github"
       revision="lineage-23.2" />
 
-  <!-- Common device tree -->
+  <!-- Common device tree - dolby branch -->
   <project
       path="device/samsung/gta4l-common"
       name="shipukacapri/android_device_samsung_gta4l-common"
       remote="github"
-      revision="fixed-23.2" />
+      revision="dolby-23.2" />
 
   <!-- Kernel -->
   <project
@@ -42,16 +42,18 @@
       remote="github"
       revision="lineage-23.2" />
 
+  <!-- Dolby -->
+  <project
+      path="hardware/dolby"
+      name="Evolution-X-Devices/hardware_dolby"
+      remote="github"
+      revision="bka" />
+
   <!-- ProjectMatrixx vendor -->
   <project
       path="vendor/matrixx"
       name="ProjectMatrixx/vendor_matrixx"
       remote="github"
       revision="16.2" />
-<project
-    name="Evolution-X-Devices/hardware_dolby"
-    path="hardware/dolby"
-    remote="github"
- revision="bka" />
 
 </manifest>
