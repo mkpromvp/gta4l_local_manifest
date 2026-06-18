@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- Override device tree with your fork -->
-  <remove-project name="LineageOS/android_device_samsung_gta4l" />
   <project
       path="device/samsung/gta4l"
       name="mkpromvp/android_device_samsung_gta4l"
