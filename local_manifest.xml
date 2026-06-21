@@ -37,4 +37,11 @@
       remote="github"
       revision="lineage-23.2" />
 
+  <!-- Fix QuickSettings crash -->
+  <project
+      path="packages/apps/MatrixxSettings"
+      name="mkpromvp/packages_apps_MatrixxSettings"
+      remote="github"
+      revision="16.2" />
+  
 </manifest>
