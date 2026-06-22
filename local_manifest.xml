@@ -5,7 +5,7 @@
       path="device/samsung/gta4l"
       name="mkpromvp/android_device_samsung_gta4l"
       remote="github"
-      revision="lineage-23.2" />
+      revision="matrixx-a16" />
 
   <project
       path="device/samsung/gta4l-common"
