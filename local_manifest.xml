@@ -33,7 +33,7 @@
 
   <project
       path="hardware/samsung"
-      name="LineageOS/android_hardware_samsung"
+      name="mkpromvp/android_hardware_samsung"
       remote="github"
       revision="lineage-23.2" />
 
